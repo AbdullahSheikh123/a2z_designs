@@ -6,7 +6,7 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@a2z.com"
 app_license = "MIT"
-app_logo_url = "/assets/a2z_designs/images/a2z-logo.svg"
+app_logo_url = "/assets/a2z_designs/images/tech4all-logo.svg"
 
 # Includes in <head>
 # ------------------
@@ -47,8 +47,8 @@ home_page = "login"
 # }
 
 website_context = {
-	"favicon": "/assets/a2z_designs/images/a2z-favicon.svg",
-	"splash_image": "/assets/a2z_designs/images/a2z-logo.svg",
+	"favicon": "/assets/a2z_designs/images/tech4all-favicon.svg",
+	"splash_image": "/assets/a2z_designs/images/tech4all-logo.svg",
 }
 # Generators
 # ----------

@@ -8,7 +8,7 @@ $font-family_1: 'Poppins', sans-serif;
 }
 
 :root, [data-theme=light] {
-  --btn-primary: #0EA5E9;
+  --btn-primary: #00843D;
 }
 
 body {
@@ -67,7 +67,7 @@ body {
 
     &:hover {
       color: white;
-      background: #0EA5E9;
+      background: #00843D;
 
       svg {
         fill: white;

@@ -35,7 +35,7 @@ h5
 
 .a2z-color
 {
-    color: #0EA5E9;
+    color: #00843D;
 }
 
 .navbar
@@ -44,7 +44,7 @@ h5
 
 .secondary-color
 {
-    color: #374957;
+    color: #315E4B;
 }
 
 .wrapper
@@ -122,7 +122,7 @@ h5
 .topbar-btn:hover
 {
     color: #fff;
-    background: #0EA5E9;
+    background: #00843D;
     text-decoration: none;
 }
 
@@ -275,8 +275,8 @@ h5
 {
     min-width: 140px;
     border-radius: 5px;
-    border-color: #0EA5E9 !important;
-    background-color: #0EA5E9 !important;
+    border-color: #00843D !important;
+    background-color: #00843D !important;
     box-shadow: 2px 14px 24px rgb(41 72 152 / 10%);
     color: #fff;
     padding: 0.6rem;
@@ -286,7 +286,7 @@ h5
 .btn-white
 {
     border-color: #9C9C9C !important;
-    color: #06152B !important;
+    color: #123D2A !important;
     background-color: #fff !important;
 }
 
@@ -312,7 +312,7 @@ h5
 .primary-btn.active, .primary-btn:hover
 {
     border: solid 1px transparent !important;
-    background-color: #0EA5E9 !important;
+    background-color: #00843D !important;
     color: #fff;
 }
 
@@ -340,7 +340,7 @@ h5
 
 .btn-design.active, .btn-design.active:hover
 {
-    background: #0EA5E9;
+    background: #00843D;
     color: #fff;
 }
 
@@ -373,7 +373,7 @@ h5
 
 .reporting-heading
 {
-    border-bottom: solid 1px rgba(14, 165, 233, 0.5);
+    border-bottom: solid 1px rgba(0, 132, 61, 0.5);
     padding: 20px 30px;
 }
 
@@ -398,7 +398,7 @@ h5
 {
     margin: 0;
     font-weight: bold;
-    color: #0EA5E9;
+    color: #00843D;
 }
 
 .reports-box ul
@@ -451,7 +451,7 @@ h5
 
 .reports-box ul li.complete-reports a:before
 {
-    border-color: #3E8415;
+    border-color: #00843D;
 }
 
 .reports-box ul li.pending-reports a:hover
@@ -461,7 +461,7 @@ h5
 
 .reports-box ul li.complete-reports a:hover
 {
-    color: #3E8415;
+    color: #00843D;
 }
 
 .tabs-btn
@@ -479,25 +479,25 @@ h5
 
 .tabs-btn li a
 {
-    color: #4D5969;
+    color: #315E4B;
     padding: 6px 15px;
-    border-bottom: solid 2px #4D5969;
+    border-bottom: solid 2px #315E4B;
 }
 
 .tabs-btn li a.active
 {
-    background: rgba(14, 165, 233, 7%);
-    color: #4D5969;
-    color: #0EA5E9;
+    background: rgba(0, 132, 61, 7%);
+    color: #315E4B;
+    color: #00843D;
     font-weight: 600;
-    border-color: #0EA5E9;
+    border-color: #00843D;
 }
 
 .tabs-btn li a:hover
 {
     text-decoration: none;
-    color: #0EA5E9;
-    border-color: #0EA5E9;
+    color: #00843D;
+    border-color: #00843D;
 }
 
 .top-menu-btns
@@ -549,8 +549,8 @@ h5
 
 .bottom-btns li a.active
 {
-    background: #0EA5E9;
-    border-color: #0EA5E9;
+    background: #00843D;
+    border-color: #00843D;
     color: #fff;
 }
 
@@ -559,7 +559,7 @@ h5
     background: none;
     border: none;
     font-size: 12px;
-    color: #374957;
+    color: #315E4B;
     font-weight: 500;
 }
 
@@ -659,7 +659,7 @@ h5
     border-bottom-right-radius: 10px;
     background: red;
     display: inline-block;
-    background: #1D75D3;
+    background: #079BD3;
 }
 
 .progress_bar
@@ -708,7 +708,7 @@ h5
     border-radius: 2px;
     width: 20px;
     background-color: transparent;
-    border: solid 1px #06152B;
+    border: solid 1px #123D2A;
 }
 
 .checkbox-design:hover input ~ .checkmark
@@ -717,8 +717,8 @@ h5
 
 .checkbox-design input:checked ~ .checkmark
 {
-    background-color: #0EA5E9;
-    border-color: #0EA5E9;
+    background-color: #00843D;
+    border-color: #00843D;
 }
 
 .checkmark:after
@@ -756,7 +756,7 @@ h5
 
 .complete-progress
 {
-    background: #3E8415 !important;
+    background: #00843D !important;
 }
 
 .orange-progress
@@ -777,7 +777,7 @@ h5
 .filterby h4
 {
     font-weight: 600;
-    color: #374957;
+    color: #315E4B;
     margin-bottom: 20px;
 }
 
@@ -799,7 +799,7 @@ h5
 
 .text-link
 {
-    color: #0B92DE;
+    color: #079BD3;
     font-size: 14px;
     display: inline-block;
     margin-top: 5px;
@@ -829,7 +829,7 @@ h5
 .breadcrumb-item + .breadcrumb-item:before
 {
     content: "//";
-    color: #0EA5E9;
+    color: #00843D;
 }
 
 .approved-package
@@ -851,12 +851,12 @@ h5
 
 .approved-package:before
 {
-    border-color: #3E8415 !important;
+    border-color: #00843D !important;
 }
 
 .approved-package
 {
-    color: #3E8415
+    color: #00843D
 }
 
 .packages-flow ul
@@ -908,13 +908,13 @@ h5
 
 .packages-flow ul li a.complete-package
 {
-    border-color: #3E8415;
+    border-color: #00843D;
 }
 
 .packages-flow ul li a.complete-package:before
 {
-    border-color: #3E8415;
-    background: #3E8415;
+    border-color: #00843D;
+    background: #00843D;
 }
 
 .packages-flow ul li a.complete-package:after
@@ -976,7 +976,7 @@ h5
     width: 100%;
     outline: none;
     font-weight: 600;
-    color: #374957;
+    color: #315E4B;
     box-shadow: none;
 }
 
@@ -1009,7 +1009,7 @@ h5
 {
     font-size: 14px;
     font-weight: normal;
-    color: #06152B;
+    color: #123D2A;
     opacity: 0.7;
 }
 
@@ -1046,7 +1046,7 @@ h5
     width: 30px;
     text-align: center;
     font-weight: bold;
-    color: #0369A1;
+    color: #154B34;
     font-size: 18px;
     padding-top: 10px;
 }
@@ -1073,13 +1073,13 @@ h5
 .filed-design label:first-child
 {
     font-size: 12px;
-    color: #06152B;
+    color: #123D2A;
     font-weight: 500;
 }
 
 .success-filed
 {
-    border-color: #3E8415 !important;
+    border-color: #00843D !important;
 }
 
 .btn-border
@@ -1112,13 +1112,13 @@ h5
     left: 0;
     height: 16px;
     width: 16px;
-    border: solid 1px #0EA5E9;
+    border: solid 1px #00843D;
     border-radius: 50%;
 }
 
 .radio-design input:checked ~ .radio-checkmark
 {
-    background-color: #0EA5E9;
+    background-color: #00843D;
 }
 
 .radio-checkmark:after
@@ -1221,7 +1221,7 @@ h5
     width: calc(100% - 156px);
     text-align: right;
     vertical-align: middle;
-    color: #06152B;
+    color: #123D2A;
 }
 
 .detail-sec a
@@ -1245,7 +1245,7 @@ h5
 
 .events-section ul li
 {
-    color: #515c6b;
+    color: #315E4B;
     position: relative;
     padding-left: 20px;
     padding-bottom: 30px;
@@ -1281,7 +1281,7 @@ h5
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: solid 3px #0EA5E9;
+    border: solid 3px #00843D;
     content: '';
     display: inline-block;
     position: absolute;
@@ -1292,7 +1292,7 @@ h5
 .events-section ul li:after
 {
     height: 100%;
-    border-left: dashed 2px #0EA5E9;
+    border-left: dashed 2px #00843D;
     content: '';
     position: absolute;
     left: 6.5px;
@@ -1315,7 +1315,7 @@ h5
 .events-section h4
 {
     font-weight: 600;
-    color: #374957;
+    color: #315E4B;
     margin-bottom: 20px;
 }
 
@@ -1353,7 +1353,7 @@ h5
 
 .text-green
 {
-    color: #3E8415;
+    color: #00843D;
 }
 
 .text-orange
@@ -1421,7 +1421,7 @@ h5
 
 .quantity-lable
 {
-    color: #3A36DB;
+    color: #079BD3;
     padding: 6px 10px;
     background: rgba(58, 54, 219, 0.2);
     border-radius: 10px;
@@ -1447,7 +1447,7 @@ h5
 
 .login-form h2
 {
-    color: #0EA5E9;
+    color: #00843D;
     margin: 0;
     font-weight: 600;
 }
@@ -1455,7 +1455,7 @@ h5
 .login-form p
 {
     font-size: 12px;
-    color: #06152B;
+    color: #123D2A;
     font-weight: 500;
     margin-bottom: 40px;
 }
@@ -1468,7 +1468,7 @@ h5
 .forgot-password
 {
     float: right;
-    color: #06152B;
+    color: #123D2A;
     font-weight: 500;
     font-size: 12px;
     display: inline-block;
@@ -1478,7 +1478,7 @@ h5
 .forgot-password:hover
 {
     text-decoration: none;
-    color: #0EA5E9;
+    color: #00843D;
 }
 
 .login-form .btn-design
@@ -1496,12 +1496,12 @@ h5
 
 .no-account
 {
-    color: #06152B;
+    color: #123D2A;
 }
 
 .no-account a
 {
-    color: #0EA5E9;
+    color: #00843D;
 }
 
 .vector-img img
@@ -1527,13 +1527,13 @@ h5
 
 .login-section .input-group-design:hover
 {
-    border-color: #38BDF8;
+    border-color: #BFEBD8;
     box-shadow: 0 0 20px rgb(41 72 15 / 15%);
 }
 
 .input-design
 {
-    border-color: #38BDF8 !important;
+    border-color: #BFEBD8 !important;
     box-shadow: 0 0 20px rgb(41 72 15 / 15%);
 }
 
@@ -1632,7 +1632,7 @@ h5
 {
     color: #fff;
     text-decoration: none;
-    background: #0EA5E9;
+    background: #00843D;
 }
 
 .sidebar ul a
@@ -1695,7 +1695,7 @@ h5
 .breadcrumb-item:before
 {
     float: right;
-    color: #0EA5E9;
+    color: #00843D;
     padding-left: 0.5rem;
     content: "//";
 }
@@ -1720,7 +1720,7 @@ h5
 
 .filter-btn
 {
-    background: #0EA5E9;
+    background: #00843D;
     position: fixed;
     bottom: 2%;
     right: 2%;
@@ -1748,9 +1748,9 @@ h5
 
 .filter-btn:hover
 {
-    color: #0EA5E9;
+    color: #00843D;
     background: #fff;
-    border-color: #0EA5E9;
+    border-color: #00843D;
     text-decoration: none;
 }
 
@@ -1792,7 +1792,7 @@ h5
 {
     background: #FCFCFD;
     border: none;
-    color: #06152B;
+    color: #123D2A;
     border-radius: 4px;
     text-align: center;
     font-weight: 600;
@@ -1800,7 +1800,7 @@ h5
 
 .filter-window .nav-tabs .nav-link.active
 {
-    background: #0EA5E9;
+    background: #00843D;
     color: #fff;
 }
 
@@ -1912,7 +1912,7 @@ h5
 
     .sidebar.menu-design ul a
     {
-        background: #0EA5E9;
+        background: #00843D;
         color: #fff;
     }
 
@@ -1924,7 +1924,7 @@ h5
 
     .sidebar.menu-design ul a:hover img
     {
-        background: #0EA5E9;
+        background: #00843D;
     }
 }
 
