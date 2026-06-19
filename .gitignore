@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+a2z_designs/docs/current
+a2z_designs/public/dist

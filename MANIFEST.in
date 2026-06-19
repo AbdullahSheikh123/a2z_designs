@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include a2z_designs *.css
+recursive-include a2z_designs *.csv
+recursive-include a2z_designs *.html
+recursive-include a2z_designs *.ico
+recursive-include a2z_designs *.js
+recursive-include a2z_designs *.json
+recursive-include a2z_designs *.md
+recursive-include a2z_designs *.png
+recursive-include a2z_designs *.py
+recursive-include a2z_designs *.svg
+recursive-include a2z_designs *.txt
+recursive-exclude a2z_designs *.pyc
