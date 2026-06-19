@@ -47,7 +47,7 @@ home_page = "login"
 # }
 
 website_context = {
-	"favicon": "/assets/a2z_designs/images/tech4all-favicon.svg",
+	"favicon": "/assets/a2z_designs/images/a2z_innovations_logo.svg",
 	"splash_image": "/assets/a2z_designs/images/tech4all-logo.svg",
 }
 # Generators
