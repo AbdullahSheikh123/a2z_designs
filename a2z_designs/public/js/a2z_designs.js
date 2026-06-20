@@ -45,6 +45,7 @@ if (frappe.boot.navbar_settings) {
 const hideUnsupportedUserMenuItems = () => {
     const menuItems = document.querySelectorAll(
         [
+            '.dropdown-menu-item',
             '.dropdown-menu a',
             '.dropdown-menu button',
             '.dropdown-menu [role="menuitem"]',
@@ -58,10 +59,14 @@ const hideUnsupportedUserMenuItems = () => {
     );
 
     menuItems.forEach((item) => {
-        if (hiddenUserMenuItems.has(normalizeMenuText(item.textContent))) {
-            const removableItem = item.closest('li, .dropdown-item, [role="menuitem"], a, button');
+        const menuTitle = item.querySelector('.menu-item-title');
+        const itemText = normalizeMenuText(menuTitle ? menuTitle.textContent : item.textContent);
+
+        if (hiddenUserMenuItems.has(itemText)) {
+            const removableItem = item.closest('.dropdown-menu-item, li, .dropdown-item, [role="menuitem"], a, button');
             if (removableItem) {
                 removableItem.style.display = 'none';
+                removableItem.hidden = true;
             }
         }
     });
