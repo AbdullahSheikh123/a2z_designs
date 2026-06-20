@@ -1460,6 +1460,20 @@ h5
     margin-bottom: 40px;
 }
 
+.login-alert
+{
+    display: none;
+    color: #B42318;
+    background: #FFF1F1;
+    border: 1px solid #FFD1D1;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding: 10px 12px;
+    margin: -20px 0 24px;
+}
+
 .login-form .form-group
 {
     margin-bottom: 30px;
