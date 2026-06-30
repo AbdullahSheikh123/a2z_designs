@@ -1436,8 +1436,8 @@ h5
     background-image: url("/assets/a2z_designs/images/login-vec.svg");
     background-position: center;
     background-repeat: no-repeat;
-    width: 150%;
-    min-height: 60vh;
+    background-size: fit;
+    min-height: 100vh;
 }
 
 .login-form
